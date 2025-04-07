@@ -14,10 +14,19 @@ a {
   color: #fff;
   text-decoration: none;
 }
+.field {
+  position: relative;
+}
+.field img {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+}
 #search {
   background: rgba(31, 41, 55, 0.6);
   width: 224px;
   height: 40px;
+  border: none;
   border-radius: 100px;
   margin-bottom: 69px;
 }
@@ -34,27 +43,29 @@ section div,
 h1 {
   color: #fff;
 }
-.Frontend {
+.position,
+time {
   margin-bottom: 14px;
   opacity: 0.6;
 }
-.name {
+.author-name {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding: 0;
   margin: 0;
   line-height: 28px;
-
   color: #fff;
+  display: block;
 }
-.Profession {
+.author-position {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   opacity: 0.6;
   padding: 0;
   margin: 0;
+  display: block;
 }
 .imgFace {
   margin-bottom: 28px;
@@ -70,14 +81,14 @@ h1 {
   line-height: 38px;
   margin-bottom: 30px;
 }
-.Colortext {
+.colortext {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #fff;
 }
-.Impact {
+.impact {
   margin: 43 0 84 0;
 }
 section p {
@@ -89,7 +100,7 @@ section p {
 
   color: #fff;
 }
-h6 {
+footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
