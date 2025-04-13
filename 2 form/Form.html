@@ -6,28 +6,45 @@
     <title>Form</title>
     <link rel="stylesheet" href="2-css/form.css" />
   </head>
-  <body>
+  <body class="container">
     <main>
-      <h1>Регистрация</h1>
-      <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-      <div>
-        <label for="Company">Моя компания</label>
-        <input type="Company" id="Company" name="Company" required />
+      <div class="reg">
+        <h1>Регистрация</h1>
       </div>
-      <div>
-        <input type="name" id="name" name="name" placeholder="Имя" required />
-      </div>
-      <div>
+      <div class="enter">Уже есть аккаунт? <a href="#">Войти</a></div>
+      <div class="item">
         <input
-          type="Surname"
-          id="Surname"
-          name="Surname"
-          placeholder="Фамилия"
+          class="company"
+          type="сompany"
+          id="сompany"
+          name="сompany"
+          placeholder="Моя компания"
           required
         />
       </div>
-      <div>
+      <div class="item item1">
         <input
+          class="name"
+          type="name"
+          id="name"
+          name="name"
+          placeholder="Имя"
+          required
+        />
+        <div class="item item2">
+          <input
+            class="surname"
+            type="surname"
+            id="surname"
+            name="surname"
+            placeholder="Фамилия"
+            required
+          />
+        </div>
+      </div>
+      <div class="item3">
+        <input
+          class="email"
           type="email"
           id="email"
           name="email"
@@ -35,8 +52,10 @@
           required
         />
       </div>
-      <button>Зарегистрироваться</button>
       <div>
+        <button>Зарегистрироваться</button>
+      </div>
+      <div class="checkbox">
         <input type="checkbox" id="checkbox" name="checkbox" required />
         <label for="checkbox"
           >Я прочитал и принимаю <a href="#">Условия использования</a></label
