@@ -1,0 +1,28 @@
+:root {
+  --layout-width: 1920px;
+  --color-bg: #fff;
+  --color-subtitle: rgba(78, 93, 124, 0.5);
+  --color-text: #000;
+  --color-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+  --border-8: 8px;
+  --color-row: #4e5d7c;
+  --button-color: #357efe;
+  --price-bg: #ffc736;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-bg);
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
