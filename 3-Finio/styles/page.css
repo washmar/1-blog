@@ -65,13 +65,14 @@
   color: var(--color-row);
 }
 
-.with-line-1,
-.with-line-2 {
+.with-line {
   border: none;
   border-bottom: 1px solid rgba(78, 93, 124, 0.08);
   margin: 16px 40px 16px;
 }
-
+.line {
+  margin: 16px 24px 8px 24px;
+}
 .grid-container {
   display: grid;
   place-items: center;
@@ -202,12 +203,12 @@
     padding: 16px 0px 16px 24px;
   }
 
-  .with-line-1 {
+  /* .with-line-1 {
     margin: 16px 24px 8px 24px;
   }
-  .with-line-2 {
+  .line {
     margin: 8px 24px 16px 24px;
-  }
+  } */
   .row__price {
     text-align: center;
     place-items: center;
